@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@buf/penumbra-zone_penumbra.bufbuild_es": "1.8.0-20240331004851-c3b058e666bc.2",
+    "@penumbra-zone/bech32m": "^17.0.0",
+    "@penumbra-zone/protobuf": "^10.1.0",
     "@penumbra-zone/wasm": "^4.0.0",
     "next": "14.1.0",
+    "penumbra": "link:@penumbra-zone/bech32m/penumbra",
     "react": "^18.3.0",
     "react-dom": "^18.3.0"
   },
